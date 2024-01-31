@@ -1,0 +1,40 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #41be41;
+}
+
+#app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.film {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    background-color: #be1111;
+    max-width: 300px;
+}
+
+.film img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.film h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.film p {
+    margin-bottom: 8px;
+}
+
